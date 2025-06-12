@@ -1,7 +1,7 @@
 import unittest
 
 
-from app import app
+from app import *
 
 class Test_FlaskApp(unittest.TestCase):
 
