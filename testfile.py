@@ -1,6 +1,5 @@
 import unittest
 
-from pecan import response
 
 from app import app
 
