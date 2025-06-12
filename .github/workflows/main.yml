@@ -33,7 +33,7 @@ jobs:
           echo "Conents of working directory : $(ls -l)"
 
       - name: Run tests
-        run: python test_file.py
+        run: python testfile.py
         
 
 
