@@ -28,7 +28,7 @@ jobs:
 
       - name: Print debugging information
         run: |
-          echo "Python Version : ${python --version}"
+          echo "Python Version : $(python --version)"
           echo "Working directory : $(pwd)"
           echo "Conents of working directory : $(ls -l)"
 
