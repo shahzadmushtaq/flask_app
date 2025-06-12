@@ -3,11 +3,11 @@ from sqlmodel import create_engine , Session , select
 
 class Phones(SQLModel,table=True):
     id : int = Field(primary_key=True)
-    title : str  = Field(default=None)
-    price : int | None = Field(default=0)
-    currency : str | None = Field(default="usd")
-    ram : int | None = Field(default=None)
-    storage : int | None = Field(default=None)
+    title : str  = Field(default="")
+    price : int  = Field(default=0)
+    currency : str  = Field(default="usd")
+    ram : int  = Field(default=0)
+    storage : int  = Field(default=0)
 
 
 # create engine to communicate to database
